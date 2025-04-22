@@ -1,0 +1,114 @@
+ <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      background-color: #1e1e1e;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .navbar h1 {
+      font-family: 'Playfair Display', serif;
+      color: #FFD700;
+      font-size: 1.5rem;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      transition: color 0.3s;
+    }
+
+    .navbar ul li a:hover {
+      color: #00FFFF;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items:left;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .hero img {
+      width: 160px;
+      height: 250px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    .hero h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin: 0.5rem 0;
+    }
+
+    .hero p {
+      max-width: 600px;
+      color: #00FFFF;
+    }
+	.hero1 (
+	font-family: times;
+	font-size: 18 px
+	color: #ff5733;
+
+    .btn {
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #FFD700;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #2ecc71;
+    }
+
+    .content {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    section h3 {
+      color: #FFD700;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1e1e1e;
+    }
+
+    footer a {
+      margin: 0 0.5rem;
+      color: #00FFFF;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
